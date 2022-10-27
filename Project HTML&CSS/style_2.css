@@ -1,0 +1,1065 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    overflow-x: hidden;
+}
+#parent{
+    width: 1534px;
+}
+#navbar_header_1{
+    border: 1px solid rgb(0, 53, 128);
+    width: 100%;
+    height: 370px;
+    background-color: rgb(0, 53, 128);
+}
+#navbar_header_1 h2{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-left: 225px;
+    margin-top: 40px;
+}
+#profile_image{
+    border-radius: 55px;
+    width: 27px;
+    height: 27px;
+    border: 3.5px solid rgb(211, 123, 45);
+    float: left;
+    transform: translate(8px,7px);
+}
+#navbar_header_1 ul{
+    list-style-type: none;
+}
+#navbar_header_1 ul li{
+    float:left;
+    transform: translate(788px,-23px);
+    padding-left: -10px;
+}
+#navbar_header_1 ul li .container a h4{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+#navbar_header_1 ul li .container a{
+    text-decoration: none;
+}
+#navbar_header_1 ul li .container a img{
+    transform: translate(18px,14px);
+    border-radius: 17px;
+    width: 20px;
+    height: 20px;
+
+}
+#navbar_header_1 ul li .container i{
+    color:white;
+    font-size: 27px;
+    padding-left: 15px;
+    padding-top:  15px;
+}
+#navbar_header_1 ul li input{
+    border: 2px solid white;
+    background-color:rgb(0, 53, 128);
+    font-family:Arial, Helvetica, sans-serif ;
+    color:white;
+    font-size:15px;
+    padding: 8px;
+    margin-top: 8px;
+    transform: translate(10px);
+}
+#navbar_header_1 ul li input:hover{
+    background-color:rgb(31, 78, 143) ;
+    cursor: pointer;
+}
+.container{
+    width: 60px;
+    height: 50px;
+    position: relative;
+    display:inline-block;
+}
+.container:hover{
+    background-color:rgb(31, 78, 143) ;
+}
+#dropdown_content_1{
+    display: none;
+    position: absolute;
+    border:1px solid red;
+    border: hidden;
+    width:165px;
+    padding: 6px;
+    transform: translate(-50px,25px);
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#dropdown_content_2{
+    display: none;
+    position: absolute;
+    border:1px solid red;
+    border: hidden;
+    width:165px;
+    padding: 6px;
+    transform: translate(-50px,35px);
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+#dropdown_content_3{
+    display: none;
+    position: absolute;
+    border:1px solid red;
+    border: hidden;
+    width:190px;
+    padding: 6px;
+    transform: translate(-50px,18px);
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+#dropdown_content_4{
+    display: none;
+    position: absolute;
+    border:1px solid red;
+    border: hidden;
+    width:160px;
+    padding: 6px;
+    transform: translate(-50px,18px);
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.container:hover #dropdown_content_1{
+    display: block;
+}
+.container:hover #dropdown_content_2{
+    display: block;
+}
+.container:hover #dropdown_content_3{
+    display: block;
+}
+.container:hover #dropdown_content_4{
+    display: block;
+}
+#navbar_header_1 ul li .contain{
+    transform: translate(20px);
+    width:180px;
+    height: 50px;
+}
+.contain:hover{
+  background-color:rgb(31, 78, 143) ;
+}
+.contain .username{
+    float: left;
+    transform: translate(15px,5px);
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.contain .para{
+    transform: translate(15px,5px);
+    color: rgb(254, 187, 2);
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar_header_1 ul{
+    transform: translate(0px,-20px);
+    border:1px solid red;
+    border: hidden;
+}
+#navbar_header_2 .item_1{
+    float:left;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    border: hidden;
+}
+#navbar_header_2 .item_1:hover{
+    background-color:rgb(31, 78, 143) ;
+}
+#navbar_header_2 .item_1 a{
+    text-decoration: none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+}
+#navbar_header_2 .item_1 i{
+    font-size: 20px;
+    color:white;
+}
+#navbar_header_2 .item_2{
+    float:left;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    border: hidden;
+}
+#navbar_header_2 .item_2:hover{
+    background-color:rgb(31, 78, 143) ;
+}
+#navbar_header_2 .item_2 a{
+    text-decoration: none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+}
+#navbar_header_2 .item_2 i{
+    font-size: 20px;
+    color:white;
+}
+#navbar_header_2 .item_3{
+    float:left;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    border: hidden;
+}
+#navbar_header_2 .item_3:hover{
+    background-color:rgb(31, 78, 143) ;
+}
+#navbar_header_2 .item_3 a{
+    text-decoration: none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+}
+#navbar_header_2 .item_3 i{
+    font-size: 20px;
+    color:white;
+}
+#navbar_header_2 .item_4{
+    float:left;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    border: hidden;
+}
+#navbar_header_2 .item_4:hover{
+    background-color:rgb(31, 78, 143) ;
+}
+#navbar_header_2 .item_4 a{
+    text-decoration: none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+}
+#navbar_header_2 .item_4 i{
+    font-size: 20px;
+    color:white;
+}
+#navbar_header_2 .item_5{
+    float:left;
+    border: 1px solid black;
+    border: hidden;
+    padding: 10px;
+    border-radius: 20px;
+}
+#navbar_header_2 .item_5:hover{
+    background-color:rgb(31, 78, 143) ;
+}
+#navbar_header_2 .item_5 a{
+    text-decoration: none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+}
+#navbar_header_2 .item_5 i{
+    font-size: 20px;
+    color:white;
+}
+#navbar_header_2{
+    transform: translate(225px,-280px);
+}
+#navbar_header_3{
+    transform: translate(230px,-210px);
+}
+#navbar_header_3 .content_1{
+    font-family:Next,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    color:white;
+    font-size:40px;
+    font-weight: bold;
+}
+#navbar_header_3 .content_2{
+    font-family: Avenir Next,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    color:white;
+    font-size:20px ;
+    padding-top: 10px;
+}   
+#navbar_header_4{
+    border: 5px solid rgb(254, 187, 2);
+    width: 1140px;
+    height: 60px;
+    transform: translate(230px,-163px);
+    background-color: white;
+}
+#navbar_header_4 .content_1{
+    float: left;
+    border-right: 4px solid rgb(254, 187, 2);
+    width: 40%;
+    height: 60px;
+}
+#navbar_header_4 .content_1 input
+{
+    transform: translate(30px,13px);
+    width: 300px;
+    height: 35px;
+    border: 1px solid white;
+    text-align: center;
+    font-size: medium;
+}
+#navbar_header_4 .content_1 i
+{
+    font-size: 25px;
+    transform: translate(30px,15px);
+}
+#navbar_header_4 .content_2{
+    float: left;
+    width: 18%;
+    height: 60px;
+    transform: translate(19px,20px);
+}
+#navbar_header_4 .content_2 .c1{
+    float: left;
+    transform: translate(11px);
+}
+#navbar_header_4 .content_2 .c3{
+    float: left;
+    font-size: medium;
+    transform: translate(12px);
+}
+#navbar_header_4 .content_2 .c2{
+    float: left;
+    transform: translate(15px);
+}
+#navbar_header_4 .content_3{
+    float: left;
+    width: 25%;
+    height: 60px;
+    transform: translate(30px,0px);
+    border-left: 4px solid rgb(254, 187, 2);
+}
+#navbar_header_4 .content_4{
+    float: left;
+    border-left:  5px solid rgb(254, 187, 2);
+    width: 10%;
+    height: 61px;
+    transform: translate(8px,-1px);
+}
+.content_2 div a{
+    text-decoration: none;
+    color: rgb(117,117,139);
+    font-family: Avenir Next,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+.content_3 a{
+    text-decoration: none;
+    color: rgb(117,117,139);
+    font-size: small;
+}
+.content_3 .link_1{
+    float: left;
+}
+.content_3 .link_2{
+    float: left;
+}
+.content_3 .link_3{
+    float: left;  
+}
+.content_4 input{
+    background-color: rgb(0, 113, 194);
+    color:white;
+    border: hidden;
+    width: 175px;
+    height: 60px;
+    font-family: Avenir Next,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-size: large;
+}
+.content_4 input:hover{
+    background-color: rgb(0, 89, 153);
+}
+.content_3{
+    height: 58px;
+    width: 100px;
+}
+.content_3 a{
+    font-size: small;
+    color: rgb(117,117,139);
+    padding: 4px;
+    font-family: Avenir Next,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#che {
+    transform: translate(225px,-140px);  
+}
+#main #main_content_3 .content_0{
+    transform: translate(240px,-190px);
+}
+#main #main_content_3 .content_0 .para_1{
+    font-weight: bold;
+    color:white;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main #main_content_3 .content_0 .para_2{
+    transform: translate(0px,10px);
+    color:white;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main #main_content_3 .content_0 input{
+    color:white;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    background-color: rgb(0, 113, 194);
+    border: none;
+    transform: translate(0px,30px);
+    padding: 8px;
+    font-weight: bold;
+}
+#main #main_content_3 .content_0 input:hover{
+    background-color: rgb(0, 72, 122);
+}
+#main #main_content_3 .content_2{
+    width: 1200px;
+    transform: translate(200px,-60px);
+    height: 260px;
+}
+#main #main_content_3 .content_2 img{
+    width: 500px;
+    padding-left: 13px;
+}
+#main #main_content_3 .content_2{
+    cursor: pointer;
+}
+#main #main_content_3 .content_2 .hh1{
+    color:white;
+    transform: translate(35px,-200px);
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main #main_content_3 .content_2 .hh2{
+    color:white;
+    transform: translate(540px,-500px);
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main #main_content_3 .content_2 img:hover{
+    opacity: 0.9;
+}
+#main #main_content_3 .content_3 {
+    transform: translate(195px,-50px);
+}
+#main #main_content_3 .content_3 img{
+    padding-left: 13px;
+}
+#main #main_content_3 .content_3 img:hover{
+    opacity: 0.9;
+}
+#main #main_content_3 .content_3 .sub_1{
+    cursor: pointer;
+}
+#main #main_content_3 .content_3 .sub_1 h1{
+    transform: translate(30px,-150px);
+    color: white;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main #main_content_3 .content_3 .sub_2 h1{
+    transform: translate(35px,-150px);
+    color: white;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main #main_content_3 .content_3 .sub_3 h1{
+    transform: translate(35px,-150px);
+    color: white;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main #main_content_3 .content_3 .sub_2{
+    cursor: pointer;
+}
+#main #main_content_3 .content_3 .sub_3{
+    cursor: pointer;
+}
+#main #main_content_4 div{
+    transform: translate(-10px,-120px);
+}
+#main #main_content_5{
+    
+    transform: translate(200px,-90px);
+
+}
+#main #main_content_5 .content_1{
+    
+    width: 170px;
+    float: left;
+    cursor:pointer;
+}
+#main #main_content_5 .content_1 h1{
+    font-size: large;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main #main_content_5 .content_1 p{
+    color:rgb(107, 107, 140);
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main #main_content_5 .content_1 img:hover{
+    opacity: 0.9;
+}
+#main #main_content_5 .content_2 h1{
+    font-size: large;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main #main_content_5 .content_2 p{
+    color:rgb(107, 107, 140);
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main #main_content_5 .content_2 img:hover{
+    opacity: 0.9;
+}
+#main #main_content_5 .content_3 h1{
+    font-size: large;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main #main_content_5 .content_3 p{
+    color:rgb(107, 107, 140);
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main #main_content_5 .content_3 img:hover{
+    opacity: 0.9;
+}
+#main #main_content_5 .content_4 h1{
+    font-size: large;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main #main_content_5 .content_4 p{
+    color:rgb(107, 107, 140);
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main #main_content_5 .content_4 img:hover{
+    opacity: 0.9;
+}
+#main #main_content_5 .content_5 h1{
+    font-size: large;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main #main_content_5 .content_5 p{
+    color:rgb(107, 107, 140);
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main #main_content_5 .content_5 img:hover{
+    opacity: 0.9;
+}
+#main #main_content_5 .content_6 h1{
+    font-size: large;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main #main_content_5 .content_6 p{
+    color:rgb(107, 107, 140);
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main #main_content_5 .content_6 img:hover{
+    opacity: 0.9;
+}
+#main #main_content_5 .content_1 p{
+    width: 170px;
+    float: left;
+    cursor:pointer;
+}
+#main #main_content_5 .content_2{
+    width: 170px;
+    float: left;
+    cursor:pointer;
+}
+#main #main_content_5 .content_3{
+    width: 170px;
+    float: left;
+    height: 330px;
+    cursor:pointer;
+}
+#main #main_content_5 .content_4{
+    width: 170px;
+    float: left;
+    cursor:pointer;
+}
+#main #main_content_5 .content_5{
+    width: 170px;
+    float: left;
+    cursor:pointer;
+}
+#main #main_content_5 .content_6{
+
+    width: 170px;
+    float: left;
+    cursor:pointer;
+}
+#che input{
+    width: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#che label{
+    cursor: pointer;
+}
+#main_content_1{
+    border: 1px solid gainsboro;
+    width: 1100px;
+    transform: translate(225px,-110px);
+    padding: 15px;
+}
+#main_content_1 div img{
+    float: left;
+}
+#main_content_1 div p{
+    float: left;
+    transform: translate(27px,10px);
+}
+#main_content_1 div a{
+    float: left;
+    transform: translate(32px,5px);
+    text-decoration: none;
+    color:rgb(82, 113, 198);
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main_content_2{
+    border: 1px sloid red ;
+    width: 300px;
+    transform: translate(220px,-90px);
+}
+#main_content_2 h1{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main_content_2 p{
+    width:350px;
+    color: rgb(112, 121, 131);
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main_content_3{
+    transform: translate(0px,-60px);
+}
+#main_content_3 .content_1{
+    transform: translate(220px);
+}
+#main_content_3 .content_2{
+    transform: translate(220px);
+    width: 800px;
+}
+#main_content_3 .content_3{
+    transform: translate(220px);
+    width: 1100px;
+    height: 200px;
+}
+#main_content_3 .content_3 .sub_1{
+    float:left;
+}
+#main_content_3 .content_3 .sub_2{
+    float:left;
+}
+#main_content_3 .content_3 .sub_3{
+    float:left;
+}
+#main_content_4 h1{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main_content_4 p{
+    width:450;
+    color: rgb(112, 121, 131);
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main_content_4 .content_1{
+    float: left;
+}
+#main_content_4 .content_1 h1{
+    font-size: 18px;
+}
+#main_content_4 .content_2{
+    float: left;
+}
+#main_content_4 .content_2 h1{
+    font-size: 18px;
+}
+#main_content_4 .content_3{
+    float: left;
+}
+#main_content_4 .content_3 h1{
+    font-size: 18px;
+}
+#main_content_4 .content_4{
+    float: left;
+}
+#main_content_4 .content_4 h1{
+    font-size: 18px;
+}
+#main_content_4 .content_5{
+    float: left;
+}
+#main_content_4 .content_5 h1{
+    font-size: 18px;
+}
+#main_content_4 .content_6{
+    float: left;
+}
+#main_content_4 .content_6 h1{
+    font-size: 18px;
+}
+#main_content_4{
+    transform: translate(210px);
+}
+#main_content_6{
+    height: 400px;
+}
+#main_content_7{
+    height: 200px;
+}
+#main_content_7 .content_1{
+    float:left;
+    width: 260px;
+}
+#main_content_7 .content_2{
+    float:left;
+    width: 260px;
+}
+#main_content_7 .content_3{
+    float:left;
+    width: 260px;
+    height: 68px;
+}
+#main_content_7 .content_4{
+    float:left;
+    width: 250px;
+    height: 68px;
+}
+#main_content_8{
+   width: 1200px;
+   height: 450px;
+}
+#main_content_6{
+    transform: translate(180px,-130px);
+    width: 1040px;
+}
+#main_content_6 .div_two{
+    transform: translate(0px,20px);
+
+}
+#main_content_6 h1{
+    font-size: large;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main_content_6 p{
+    color:rgb(107, 107, 140);
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main_content_6 .div_two .content_1{
+    float:left;
+    cursor: pointer;
+    transform: translate(20px);
+
+}
+#main_content_6 .div_two .content_1 img:hover{
+    opacity: 0.9;
+}
+#main_content_6 .div_two .content_2{
+    float:left;
+    cursor: pointer;
+    transform: translate(60px);
+}
+#main_content_6 .div_two .content_2 img:hover{
+    opacity: 0.9;
+}
+#main_content_6 .div_two .content_3{
+    float:left;
+    cursor: pointer;
+    transform: translate(100px);
+}
+#main_content_6 .div_two .content_3 img:hover{
+    opacity: 0.9;
+}
+#main_content_6 .div_two .content_4{
+    float:left;
+    cursor: pointer;
+    transform: translate(260px);
+}
+#main_content_6 .div_two .content_4 img:hover{
+    opacity: 0.9;
+}
+#main_content_6 .div_one h1{
+    font-size: 28px;
+}
+#main_content_6 .div_one{
+    transform: translate(22px);
+}
+#main_content_7{
+    transform: translate(190px,-160px);
+    width: 1040px;
+}
+#main_content_7 h1{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-size: 28px;
+}
+#main_content_7 div{
+    transform: translate(0px,15px);
+}
+#main_content_7 .content_1{
+    height: 80px;
+    width: 220px;
+    padding: 10px;
+    background-color: rgb(0, 76, 184);
+    cursor: pointer;
+}
+#main_content_7 .content_1 h1{
+    color:white;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-size: large;
+}
+#main_content_7 .content_1 p{
+    color:white;
+    font-size: small;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main_content_7 .content_2 h1{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-size: large;
+}
+#main_content_7 .content_2 p{
+    font-size: small;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main_content_7 .content_3 h1{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-size: large;
+}
+#main_content_7 .content_3 p{
+    font-size: small;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main_content_7 .content_4 h1{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-size: large;
+}
+#main_content_7 .content_4 p{
+    font-size: small;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main_content_7 .content_2{
+    height: 80px; 
+    width: 220px;
+    transform: translate(13px,16px);
+    padding: 10px;
+    cursor: pointer;
+    border:1px solid rgb(0, 76, 184);
+}
+#main_content_7 .content_3{ 
+    height: 80px;
+    width: 220px; 
+    padding: 10px;
+    transform: translate(26px,16px);
+    background-color: rgb(242, 242, 242);
+    cursor: pointer;
+}
+#main_content_7 .content_4{
+    height: 80px;
+    width: 220px;
+    transform: translate(40px,16px);
+    padding: 10px; 
+    background-color: rgb(242, 242, 242);
+    cursor: pointer; 
+}
+#main_content_8{
+    transform: translate(180px,-150px);
+    height: 350px;
+    width: 1020px;
+}
+#main_content_8 h1{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-size: 28px;
+}
+#main_content_8 .content_1{
+    float:left;
+    cursor: pointer;
+}
+#main_content_8 .content_2{
+    float:left;
+    transform: translate(16px);
+    cursor: pointer;
+}
+#main_content_8 .content_3{
+    float:left;
+    transform: translate(35px);
+    width: 240px;
+    height: 300px;
+    cursor: pointer;
+}
+#main_content_8 .content_4{
+    float:left;
+    transform: translate(52px);
+    cursor: pointer;
+}
+#main_content_8 div{
+    transform: translate(0px,9px);
+}
+#main_content_8 div a{
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main_content_8 div a:hover{
+    color: rgb(215, 158, 105);
+}
+.lon{
+    color: gray; 
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; 
+}
+.lon_2{
+    transform: translate(0px,10px);
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.span_1{
+    background-color: rgb(0,53,128);
+    color:white;
+    padding: 2px;
+    border:none;
+}
+.span_2{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+}
+.span_3{
+    color:gray;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main_content_8 .content_1 div{
+    transform: translate(0px,15px);
+}
+#main_content_8 .content_2 div{
+    transform: translate(0px,15px);
+}
+#main_content_8 .content_3 div{
+    transform: translate(0px,15px);
+}
+#main_content_8 .content_4 div{
+    transform: translate(0px,15px);
+}
+#main_content_9{
+    transform: translate(175px,-80px);
+    height: 400px;
+}
+#main_content_9 h1{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-size: 28px;
+}
+#main_content_9 .content_3{
+    float: left;
+    width:200px;
+    height: 200px;
+}
+#main_content_9 .content_4{
+    float: left;
+    width:200px;
+    transform: translate(10px);
+}
+#main_content_9 .content_5{
+    float: left;
+    width:200px;
+    transform: translate(20px);
+}
+#main_content_9 .content_6{
+    float: left;
+    width:200px;
+    transform: translate(30px);
+}
+#main_content_9 .content_7{
+    float: left;
+    width:200px;
+    transform: translate(60px);
+}
+#main_content_9 .content_1{
+    transform: translate(0px,20px);
+}
+#main_content_9 .content_2{
+    transform: translate(0px,50px);
+}
+#main_content_9 .content_1 span a{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#main_content_9 .content_1 span a:hover{
+    background-color: rgb(242,242,242);
+}
+#main_content_9 .content_8{
+    border: 1px solid red;
+}
+#main_content_9 .content_8{
+    transform: translate(0px,40px);
+}
+#main_content_9 .content_8 span a{
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#main_content_9 .content_2 .content_3  li a{
+    text-decoration: none;
+    color:black;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+}
+#main_content_9 .content_2 .content_4  li a{
+    text-decoration: none;
+    color:black;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+}
+#main_content_9 .content_2 .content_5  li a{
+    text-decoration: none;
+    color:black;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+}
+#main_content_9 .content_2 .content_6  li a{
+    text-decoration: none;
+    color:black;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+}
+#main_content_9 .content_2 .content_7  li a{
+    text-decoration: none;
+    color:black;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+}
+
+#main_content_9 .content_2 .content_3 p {
+    color: rgb(131, 107, 131);
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main_content_9 .content_2 .content_4 p {
+    color: rgb(131, 107, 131);
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main_content_9 .content_2 .content_5 p {
+    color: rgb(131, 107, 131);
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main_content_9 .content_2 .content_6 p {
+    color: rgb(131, 107, 131);
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+#main_content_9 .content_2 .content_7 p {
+    color: rgb(131, 107, 131);
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+#main_content_9 .content_2 .content_3  li {
+    list-style-type: none;
+
+}
+#main_content_9 .content_2 .content_4  li {
+    list-style-type: none;
+}
+#main_content_9 .content_2 .content_5  li {
+    list-style-type: none;
+}
+#main_content_9 .content_2 .content_6  li {
+    list-style-type: none;
+}
+#main_content_9 .content_2 .content_7  li {
+    list-style-type: none;
+}
+#main_content_9 .content_2 .content_3 a{
+    font-size: medium;
+}
